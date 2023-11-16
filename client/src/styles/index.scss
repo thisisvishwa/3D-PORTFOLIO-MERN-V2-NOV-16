@@ -1,0 +1,43 @@
+@import '3DWorld.scss';
+@import 'Projects.scss';
+@import 'Skills.scss';
+@import 'About.scss';
+@import 'AdminPanel.scss';
+@import 'Layout.scss';
+@import 'Navigation.scss';
+@import 'Project.scss';
+@import 'Skill.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+}

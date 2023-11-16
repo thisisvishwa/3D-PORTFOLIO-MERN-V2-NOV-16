@@ -1,0 +1,48 @@
+.about-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.about-section .contact-info {
+    margin-top: 20px;
+}
+
+.about-section .contact-info h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.about-section .contact-info p {
+    font-size: 1em;
+    color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .about-section {
+        padding: 10px;
+    }
+
+    .about-section h2 {
+        font-size: 1.5em;
+    }
+
+    .about-section p,
+    .about-section .contact-info h3,
+    .about-section .contact-info p {
+        font-size: 0.9em;
+    }
+}

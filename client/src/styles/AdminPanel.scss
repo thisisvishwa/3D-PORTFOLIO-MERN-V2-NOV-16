@@ -1,0 +1,56 @@
+.admin-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.admin-panel__header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.admin-panel__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.admin-panel__form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.admin-panel__form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admin-panel__form-group input,
+.admin-panel__form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.admin-panel__form-group input[type="submit"] {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.admin-panel__form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    .admin-panel__form {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,47 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 2em;
+  width: 100%;
+  max-width: 800px;
+}
+
+.project-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.project-description {
+  margin-bottom: 1em;
+}
+
+.project-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-link {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #333;
+}
+
+@media screen and (max-width: 600px) {
+  .project-card {
+    padding: 1em;
+  }
+
+  .project-title {
+    font-size: 1.2em;
+  }
+}

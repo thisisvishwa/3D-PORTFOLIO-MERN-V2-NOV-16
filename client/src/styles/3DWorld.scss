@@ -1,0 +1,19 @@
+#3DWorld {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #3DWorld {
+        height: 50vh;
+    }
+}
